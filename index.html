@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ZODIAK Wedding Studio — Bespoke groom's attire crafted in Kochi, Kerala. Sherwanis, tuxedos, jodhpuris, and custom suits tailored to perfection.">
+    <title>ZODIAK Wedding Studio - Bespoke Groom's Attire | Kochi, Kerala</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="zodiak_wedding_studio.png" alt="ZODIAK Wedding Studio" class="nav-logo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#client-gallery">Real Grooms</a></li>
+                <li><a href="#about">The Studio</a></li>
+                <li><a href="#contact">Consultation</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
+        <button class="mobile-menu-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#client-gallery">Real Grooms</a></li>
+            <li><a href="#about">The Studio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section with Video Rotator -->
+    <section id="home" class="hero">
+        <!-- Video Layer from Rotator -->
+        <div class="showcase-videos" aria-hidden="true">
+            <video class="showcase-video active" src="costume1.webm"
+                data-fallback="https://videos.pexels.com/video-files/5536415/5536415-uhd_2560_1440_25fps.mp4" autoplay
+                muted loop playsinline preload="auto"></video>
+            <video class="showcase-video" src="costume2.mp4"
+                data-fallback="https://videos.pexels.com/video-files/4974543/4974543-uhd_2560_1440_25fps.mp4" muted loop
+                playsinline preload="auto"></video>
+            <video class="showcase-video" src="costume3.mp4"
+                data-fallback="https://videos.pexels.com/video-files/5536534/5536534-uhd_2560_1440_25fps.mp4" muted loop
+                playsinline preload="auto"></video>
+            <video class="showcase-video" src="video4.mp4" type="video/mp4" muted loop playsinline
+                preload="auto"></video>
+            <video class="showcase-video" src="video6.mp4" type="video/mp4" muted loop playsinline
+                preload="auto"></video>
+        </div>
+
+        <!-- Dark blend overlay -->
+        <div class="showcase-overlay"></div>
+
+        <!-- Progress bar -->
+        <div class="showcase-progress">
+            <div class="showcase-progress-fill" id="showcaseProgressFill"></div>
+        </div>
+
+        <!-- Text content -->
+        <div class="hero-content animate-on-scroll fade-up">
+            <p class="pre-title">Bespoke Groom's Studio</p>
+            <h1 class="shimmer-text">ZODIAK</h1>
+            <div class="separator-line"></div>
+            <p class="subtitle">Where tradition meets sartorial excellence. Dressed for royalty, tailored to your exact
+                anatomy.</p>
+            <a href="#contact" class="cta-button">Book Your Fitting</a>
+        </div>
+
+        <!-- Slide dots -->
+        <div class="showcase-dots" aria-label="Video navigation">
+            <span class="dot active" data-index="0" role="button" tabindex="0" aria-label="Video 1"></span>
+            <span class="dot" data-index="1" role="button" tabindex="0" aria-label="Video 2"></span>
+            <span class="dot" data-index="2" role="button" tabindex="0" aria-label="Video 3"></span>
+            <span class="dot" data-index="3" role="button" tabindex="0" aria-label="Video 4"></span>
+            <span class="dot" data-index="4" role="button" tabindex="0" aria-label="Video 5"></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-up">
+                <h2 class="section-title">The Craft</h2>
+                <p class="section-subtitle">Tailored perfection for the modern gentleman</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll fade-up delay-100">
+                    <div class="card-border"></div>
+                    <div class="service-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Personalized Service</h3>
+                    <p>A dedicated one-on-one styling consultation, ensuring every aspect of your attire aligns with
+                        your unique vision.</p>
+                </div>
+                <div class="service-card animate-on-scroll fade-up delay-200">
+                    <div class="card-border"></div>
+                    <div class="service-icon"><i class="fas fa-truck"></i></div>
+                    <h3>Timely Delivery</h3>
+                    <p>Flawless execution and punctual scheduling to ensure your bespoke ensemble is delivered perfectly
+                        on time.</p>
+                </div>
+                <div class="service-card animate-on-scroll fade-up delay-300">
+                    <div class="card-border"></div>
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Premium Fabrics</h3>
+                    <p>A curated selection of the finest imported wools, rich banarasi silks, and luxurious Egyptian
+                        cottons.</p>
+                </div>
+                <div class="service-card animate-on-scroll fade-up delay-100">
+                    <div class="card-border"></div>
+                    <div class="service-icon"><i class="fas fa-scissors"></i></div>
+                    <h3>Master Tailoring</h3>
+                    <p>Expertly structured, hand-stitched tailoring engineered for your anatomy to guarantee an
+                        impeccable silhouette and comfort.</p>
+                </div>
+                <div class="service-card animate-on-scroll fade-up delay-200">
+                    <div class="card-border"></div>
+                    <div class="service-icon"><i class="fas fa-crown"></i></div>
+                    <h3>Intricate Handwork</h3>
+                    <p>Exquisite zardosi, delicate threadwork, and hand-embroidered detailing that celebrates grand
+                        royal heritage.</p>
+                </div>
+                <div class="service-card animate-on-scroll fade-up delay-300">
+                    <div class="card-border"></div>
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Hand Painted Artistry</h3>
+                    <p>Exclusive hand-painted embellishments that add a completely unique, artistic signature to your
+                        ceremonial outfits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Collection Section -->
+    <section id="collection">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-up">
+                <h2 class="section-title">The Collection</h2>
+                <p class="section-subtitle">A curation of our finest designs</p>
+            </div>
+            <div class="editorial-layout">
+                <!-- Row 1: Tuxedo -->
+                <div class="editorial-row">
+                    <div class="editorial-image">
+                        <img src="tuxedo.jpg" alt="Classic Black Tuxedo by Zodiak" loading="lazy">
+                    </div>
+                    <div class="editorial-text">
+                        <span class="editorial-preheading">01 &mdash; Bespoke Tailoring</span>
+                        <h3>The Premium Suit</h3>
+                        <p>A masterpiece of structural precision and sartorial elegance. Crafted with immaculate
+                            attention to detail, our bespoke suits offer an unparalleled fit, designed for the modern
+                            gentleman who commands a powerful, sophisticated presence.</p>
+                    </div>
+                </div>
+
+                <!-- Row 2: Sherwani -->
+                <div class="editorial-row reverse">
+                    <div class="editorial-image">
+                        <img src="sherwani.jpg" alt="Sherwani Indo-Western Fusion" loading="lazy">
+                    </div>
+                    <div class="editorial-text">
+                        <span class="editorial-preheading">02 &mdash; Heritage & Grandeur</span>
+                        <h3>The Royal Sherwani</h3>
+                        <p>Where timeless tradition meets majestic drapery. Adorned with intricate hand-embroidery and
+                            crafted from opulent fabrics, our Sherwanis are designed to honor your cultural legacy while
+                            making a resplendent matrimonial statement.</p>
+                    </div>
+                </div>
+
+                <!-- Row 3: Jodhpuri -->
+                <div class="editorial-row">
+                    <div class="editorial-image">
+                        <img src="jodhpuri.jpg" alt="Jodhpuri Suit with Sharp Lines" loading="lazy">
+                    </div>
+                    <div class="editorial-text">
+                        <span class="editorial-preheading">03 &mdash; Regal Structure</span>
+                        <h3>The Majestic Jodhpuri</h3>
+                        <p>The epitome of aristocratic charm and sharp, structured tailoring. Featuring a crisp mandarin
+                            collar and flawless contours, the Jodhpuri suit strikes the perfect balance between regal
+                            Indian heritage and modern minimalist luxury.</p>
+                    </div>
+                </div>
+
+                <!-- Row 4: Fabrics / Weaves -->
+                <div class="editorial-row reverse">
+                    <div class="editorial-image">
+                        <img src="kurta.jpg" alt="Elegant Designer Kurta" loading="lazy">
+                    </div>
+                    <div class="editorial-text">
+                        <span class="editorial-preheading">04 &mdash; Classic Grace</span>
+                        <h3>The Designer Kurta</h3>
+                        <p>Breathable, fluid, and inherently elegant. Our bespoke Kurtas are crafted from premium silks
+                            and fine cottons, featuring subtle detailing that guarantees effortless grace for
+                            pre-wedding celebrations and festive occasions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collage Gallery Section -->
+    <section id="our-gallery">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-up">
+                <h2 class="section-title">Our Gallery</h2>
+                <p class="section-subtitle">Real Grooms &amp; Tailoring Excellence</p>
+            </div>
+
+            <!-- 3-Card Grid Slideshow -->
+            <style>
+                .gal-card {
+                    position: relative;
+                    border-radius: 14px;
+                    overflow: hidden;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                    aspect-ratio: 3/4;
+                    background: #111;
+                }
+
+                .gal-card img {
+                    position: absolute;
+                    inset: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top center;
+                    opacity: 0;
+                    transition: opacity 1s ease;
+                }
+
+                .gal-card img.active {
+                    opacity: 1;
+                }
+
+                .gal-card::after {
+                    content: '';
+                    position: absolute;
+                    inset: 0;
+                    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 60%);
+                    z-index: 1;
+                    pointer-events: none;
+                }
+
+                .gal-card:hover img.active {
+                    transform: scale(1.04);
+                    transition: opacity 1s ease, transform 6s ease;
+                }
+
+                .gallery-3grid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 1.2rem;
+                    margin-top: 3rem;
+                }
+
+                @media (max-width: 768px) {
+                    .gallery-3grid {
+                        grid-template-columns: 1fr;
+                    }
+                }
+
+                .gal-view-btn {
+                    display: block;
+                    text-align: center;
+                    margin-top: 2rem;
+                }
+
+                .gal-view-btn a {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.6rem;
+                    padding: 0.9rem 2.2rem;
+                    border: 1px solid rgba(212, 175, 55, 0.5);
+                    border-radius: 30px;
+                    color: var(--gold-primary);
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 0.85rem;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                }
+
+                .gal-view-btn a:hover {
+                    background: rgba(212, 175, 55, 0.1);
+                }
+            </style>
+
+            <div class="gallery-3grid">
+                <!-- Card 1 -->
+                <div class="gal-card" data-card="0">
+                    <img src="gallery/gallery_1.jpeg" class="active" alt="Zodiak Groom">
+                    <img src="gallery/gallery_4.jpeg" alt="Zodiak Groom">
+                    <img src="gallery/gallery_7.jpeg" alt="Zodiak Groom">
+                </div>
+                <!-- Card 2 -->
+                <div class="gal-card" data-card="1">
+                    <img src="gallery/gallery_2.jpeg" class="active" alt="Zodiak Groom">
+                    <img src="gallery/gallery_5.jpeg" alt="Zodiak Groom">
+                    <img src="gallery/gallery_8.jpeg" alt="Zodiak Groom">
+                </div>
+                <!-- Card 3 -->
+                <div class="gal-card" data-card="2">
+                    <img src="gallery/gallery_3.jpeg" class="active" alt="Zodiak Groom">
+                    <img src="gallery/gallery_6.jpeg" alt="Zodiak Groom">
+                    <img src="gallery/gallery_9.jpeg" alt="Zodiak Groom">
+                </div>
+            </div>
+
+            <div class="gal-view-btn">
+                <a href="gallery.html">View Full Gallery <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <script>
+                (function () {
+                    document.querySelectorAll('.gal-card').forEach((card, ci) => {
+                        const imgs = card.querySelectorAll('img');
+                        let cur = 0;
+                        setInterval(() => {
+                            imgs[cur].classList.remove('active');
+                            cur = (cur + 1) % imgs.length;
+                            imgs[cur].classList.add('active');
+                        }, 3500 + ci * 700); // stagger start times between cards
+                    });
+                })();
+            </script>
+        </div>
+    </section>
+
+    <!-- Studio Legacy Section -->
+    <section id="about" class="dark-section">
+        <div class="container">
+            <div class="legacy-full animate-on-scroll fade-up">
+                <span class="legacy-preheading">Our Story</span>
+                <h2 class="legacy-title">The Artistry<br><em>of Masculine Elegance</em></h2>
+                <p class="legacy-lead">Redefining ceremonial wear.</p>
+                <p class="legacy-body">At ZODIAK, we believe that your attire is the ultimate expression of your
+                    personal narrative. Rooted deeply in Kasaragod, we combine generations of traditional craftsmanship
+                    with cutting-edge tailoring to deliver garments that resonate with profound sophistication.</p>
+
+                <div class="legacy-stats legacy-stats-row">
+                    <div class="legacy-stat">
+                        <span class="ls-number">200+</span>
+                        <span class="ls-label">Happy Customers</span>
+                    </div>
+                    <div class="legacy-stat">
+                        <span class="ls-number">2+</span>
+                        <span class="ls-label">Years of Excellence</span>
+                    </div>
+                    <div class="legacy-stat">
+                        <span class="ls-number">100%</span>
+                        <span class="ls-label">Bespoke Only</span>
+                    </div>
+                    <div class="legacy-stat">
+                        <span class="ls-number">Kasaragod</span>
+                        <span class="ls-label">Kerala, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Book Appointment Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-up">
+                <h2 class="section-title text-light">Get in Touch</h2>
+                <p class="section-subtitle text-gold">Begin your bespoke journey</p>
+            </div>
+
+            <div class="contact-layout animate-on-scroll fade-up"
+                style="display: flex; flex-wrap: wrap; gap: 4rem; max-width: 1000px; margin: 0 auto; padding-top: 2rem;">
+
+                <!-- Left Side: Social Media -->
+                <div class="contact-socials"
+                    style="flex: 1; min-width: 300px; padding: 2.5rem; background: rgba(255, 255, 255, 0.03); border-radius: 16px; border: 1px solid rgba(212, 175, 55, 0.15); box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                    <h3
+                        style="color: var(--gold-primary); margin-bottom: 1rem; font-size: 1.8rem; font-family: 'Cormorant Garamond', serif;">
+                        Connect With Us</h3>
+                    <p style="color: #aaa; margin-bottom: 2rem; font-size: 1rem; line-height: 1.5;">Reach out directly
+                        through our social channels for instant updates, inquiries, and inspiration.</p>
+                    <div class="social-links-lg"
+                        style="display: flex; flex-direction: column; align-items: flex-start; gap: 1.2rem;">
+                        <a href="https://wa.me/917909163021" target="_blank" aria-label="WhatsApp"
+                            style="background-color: #25D366; color: white; padding: 12px 24px; border-radius: 30px; font-size: 1.1rem; display: inline-flex; justify-content: center; align-items: center; gap: 12px; text-decoration: none; transition: transform 0.3s ease; width: 100%;">
+                            <i class="fab fa-whatsapp" style="font-size: 1.5rem;"></i> Message on WhatsApp
+                        </a>
+                        <a href="https://www.instagram.com/zodiak_wedding_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank" aria-label="Instagram"
+                            style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 12px 24px; border-radius: 30px; font-size: 1.1rem; display: inline-flex; justify-content: center; align-items: center; gap: 12px; text-decoration: none; transition: transform 0.3s ease; width: 100%;">
+                            <i class="fab fa-instagram" style="font-size: 1.5rem;"></i> Follow on Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Contact Info -->
+                <div class="contact-details"
+                    style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 2.5rem; justify-content: center; text-align: left;">
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: rgba(212, 175, 55, 0.1); display: flex; align-items: center; justify-content: center; color: var(--gold-primary); font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3
+                                style="color: var(--gold-primary); margin-bottom: 0.5rem; font-size: 1.2rem; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; text-transform: uppercase;">
+                                Studio Location</h3>
+                            <p class="address" style="font-size: 1.1rem; line-height: 1.6; color: #ddd; margin: 0;">Near
+                                Press Club Junction<br>Kasaragod, Kerala</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: rgba(212, 175, 55, 0.1); display: flex; align-items: center; justify-content: center; color: var(--gold-primary); font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3
+                                style="color: var(--gold-primary); margin-bottom: 0.5rem; font-size: 1.2rem; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; text-transform: uppercase;">
+                                Email Us</h3>
+                            <a href="mailto:zodiakmenswear@gmail.com" class="contact-link"
+                                style="font-size: 1.1rem; color: #ddd; text-decoration: none; transition: color 0.3s ease;">zodiakmenswear@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: rgba(212, 175, 55, 0.1); display: flex; align-items: center; justify-content: center; color: var(--gold-primary); font-size: 1.5rem; flex-shrink: 0;">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h3
+                                style="color: var(--gold-primary); margin-bottom: 0.5rem; font-size: 1.2rem; font-family: 'Montserrat', sans-serif; letter-spacing: 1px; text-transform: uppercase;">
+                                Direct Contact</h3>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="tel:+917808404303" class="contact-link"
+                                    style="font-size: 1.1rem; color: #ddd; text-decoration: none; transition: color 0.3s ease;">+91
+                                    78084 04303</a>
+                                <a href="tel:+917909163021" class="contact-link"
+                                    style="font-size: 1.1rem; color: #ddd; text-decoration: none; transition: color 0.3s ease;">+91
+                                    79091 63021</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <img src="zodiak_wedding_studio.png" alt="ZODIAK Wedding Studio Logo" class="footer-logo">
+                    <div class="footer-divider"></div>
+                    <p class="footer-tagline">Crafting Elegance Since 2024</p>
+                    <div class="social-links-lg footer-socials">
+                        <a href="https://wa.me/917909163021" target="_blank" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/zodiak_wedding_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 ZODIAK Wedding Studio. All rights reserved. Crafted in Kochi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

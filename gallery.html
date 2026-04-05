@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Gallery - ZODIAK Wedding Studio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header / Nav -->
+    <nav class="scrolled">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="zodiak_wedding_studio.png" alt="ZODIAK Wedding Studio" class="nav-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">&larr; Back to Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section
+        style="height:38vh;min-height:260px;display:flex;align-items:center;justify-content:center;background:var(--bg-darker);padding-top:5rem;">
+        <div style="text-align:center;">
+            <span
+                style="display:block;font-size:0.72rem;text-transform:uppercase;letter-spacing:5px;color:var(--primary-gold);font-family:var(--font-body);margin-bottom:1rem;">ZODIAK
+                Wedding Studio</span>
+            <h1 style="font-family:var(--font-heading);font-size:clamp(2.5rem,6vw,4rem);color:#f0f0f0;font-weight:400;">
+                Our Gallery</h1>
+            <p style="font-family:var(--font-heading);font-style:italic;color:rgba(255,255,255,0.5);margin-top:0.8rem;">
+                A collection of our finest bespoke creations</p>
+        </div>
+    </section>
+
+    <!-- Full Gallery Grid -->
+    <section style="padding:5rem 2rem;background-color:var(--bg-light);">
+        <div class="container">
+            <div class="stunning-gallery"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); grid-auto-rows: 250px; gap: 1rem; grid-auto-flow: dense;">
+                <style>
+                    .gallery-img-wrapper {
+                        position: relative;
+                        border-radius: 12px;
+                        overflow: hidden;
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                        cursor: pointer;
+                    }
+
+                    .gallery-img-wrapper::after {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 40%);
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                    }
+
+                    .gallery-img-wrapper:hover::after {
+                        opacity: 1;
+                    }
+
+                    .gallery-img-wrapper img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                    }
+
+                    .gallery-img-wrapper:hover img {
+                        transform: scale(1.08);
+                    }
+
+                    .gal-tall {
+                        grid-row: span 2;
+                    }
+
+                    .gal-wide {
+                        grid-column: span 2;
+                    }
+
+                    .gal-large {
+                        grid-row: span 2;
+                        grid-column: span 2;
+                    }
+
+                    @media (max-width: 768px) {
+
+                        .gal-wide,
+                        .gal-large {
+                            grid-column: span 1;
+                        }
+
+                        .stunning-gallery {
+                            grid-auto-rows: 200px;
+                        }
+                    }
+                </style>
+
+                <div class="gallery-img-wrapper gal-large">
+                    <img src="gallery/gallery_1.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-tall">
+                    <img src="gallery/gallery_9.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper">
+                    <img src="gallery/gallery_2.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-wide">
+                    <img src="gallery/gallery_3.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper">
+                    <img src="gallery/gallery_10.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-tall">
+                    <img src="gallery/gallery_4.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-large">
+                    <img src="gallery/gallery_5.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper">
+                    <img src="gallery/gallery_8.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-wide">
+                    <img src="gallery/gallery_6.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-tall">
+                    <img src="gallery/gallery_7.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper">
+                    <img src="gallery/gallery_11.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-wide">
+                    <img src="gallery/groom1.jpg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper">
+                    <img src="gallery/groom2.jpg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-tall">
+                    <img src="gallery/groom3.jpg" alt="Zodiak Groom" loading="lazy">
+                </div>
+                <div class="gallery-img-wrapper gal-large">
+                    <img src="gallery/other.jpeg" alt="Zodiak Groom" loading="lazy">
+                </div>
+            </div>
+
+            <!-- Instagram Connect inside Gallery -->
+            <div
+                style="margin-top: 5rem; text-align: center; padding: 3rem; background: rgba(0,0,0,0.02); border-radius: 12px; border: 1px solid rgba(212,175,55,0.2);">
+                <h3
+                    style="color: var(--gold-primary); font-size: 2rem; font-family: 'Cormorant Garamond', serif; margin-bottom: 1rem;">
+                    Follow Our Latest Arrivals</h3>
+                <p style="margin-bottom: 2rem; color: #555;">Discover more bespoke designs and real grooms on our
+                    Instagram.</p>
+                <a href="https://www.instagram.com/zodiak_wedding_studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank" aria-label="Instagram"
+                    style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white; padding: 12px 30px; border-radius: 30px; font-size: 1.1rem; display: inline-flex; justify-content: center; align-items: center; gap: 10px; text-decoration: none; transition: opacity 0.3s ease;">
+                    <i class="fab fa-instagram" style="font-size: 1.5rem;"></i> Explore on Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-content">
+                <img src="zodiak_wedding_studio.png" alt="ZODIAK" class="footer-logo">
+                <div class="footer-divider"></div>
+                <p class="footer-tagline">"Worn once. Remembered forever."</p>
+                <p style="opacity:0.5;font-size:0.8rem;margin-top:1rem;">&copy; 2024 Zodiak Wedding Studio. All rights
+                    reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
